@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About</title>
+    
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+
+</head>
+<body>
+    <h1>FAKULTI PERNIAGAAN DAN KOMUNIKASI</h1> 
+    <header>
+        <div class="container">
+            <h1 class="logo"></h1>
+<div class="UniMAP" id="myUniMAP">
+        <h1>UniMAP</h1>
+         <center><img src="image/logo.png" alt="logo.png" style="width:100px; height:90px;"></center>
+    </div>
+       <nav>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <ul>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-camera"></i>
+            <i class="fa fa-bars"></i>
+        </ul>
+    </body>
+    </header>
+
+
+
+    <div class="content">
+        <h2 class="w3-center">Automatic Slideshow</h2>
+
+<div class="w3-content w3-section" style="max-width:100%">
+  <img class="mySlides" src="image/UniMAP.jpg" style="width:100%">
+  <img class="mySlides" src="image/Student.jpg" style="width:100%">
+  <img class="mySlides" src="image/fpk.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+    </div>
+    
+  <iframe width="15%" height="15%"
+       src="https://youtube.com/embed/pqhSE8OcgA8?si=f9F4dT3Qs7i7Tjv8"></iframe>
+  <iframe width="15%" height="15%"
+       src="https://youtube.com/embed/5DaoMcSMUds?si=WDbQK-iKbpc1dMgt"></iframe>
+  <iframe width="15%" height="15%"
+       src="https://youtube.com/embed/xmW2LEwnyuM?si=bNB0LlVTvVxH8fc3"></iframe>
+
+</div>
+
+<div class="footer">
+    <p>Head Office
+Faculty of Business & Communication
+Universiti Malaysia Perlis (UniMAP)
+Pusat Perniagaan Pengkalan Jaya
+Jalan Alor Setar-Kangar
+01000 Kangar, Perlis
+
+Tel : 04 - 9797707  Fax : 04 - 9797708
+
+Email : pa_fpk@unimap.edu.my</p>
+</div>
+
+</body>
+</html>
